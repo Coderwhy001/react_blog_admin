@@ -224,6 +224,7 @@ function AddArticle(props) {
                   onChange={(data,dataString) => {
                     setShowDate(dataString)
                   }}
+                  defaultPickerValue={showDate}
                   placeholder="发布日期"
                   size="large"
                 />
